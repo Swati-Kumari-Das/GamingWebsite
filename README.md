@@ -1,5 +1,9 @@
-🎮 3D Gaming Landing Page
+
+**🎮 3D Gaming Landing Page**  
 A futuristic 3D gaming website built using React, Tailwind CSS, Framer Motion, and Spline. This site features smooth scroll-based animations, interactive 3D elements, and modern design principles to create an engaging user experience.
+ **Live Link:https://gamingui.netlify.app/**
+![image](https://github.com/user-attachments/assets/c5d0ec69-406f-48d8-8de3-199ea00a4b1b)
+
 
 🌟 Features
 🎨 Clean, responsive, and modern UI
