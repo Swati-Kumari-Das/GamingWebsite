@@ -2,7 +2,9 @@
 import React, { useState } from 'react'
 import {Star} from "lucide-react"
 import {motion,AnimatePresence} from "framer-motion";
-
+import Spline from '@splinetool/react-spline';
+ 
+//The customCursor component to accept isHovering3D as a prop
 const Characters = () => {
     //Track which Avatar is Selected
     const [selectedAvatar,setSelectedAvatar]=useState("VIKI");
@@ -191,7 +193,9 @@ const Characters = () => {
         animate={{x:0}}
         exit={{x:"-100%"}}
         transition={{duration:0.5}}>
-            <img src="images/VIKI.png" alt="" />
+           <Spline scene="https://prod.spline.design/gbyYHv-IU27ps-dz/scene.splinecode" />
+
+            {/* <img src="images/VIKI.png" alt="" /> */}
         </motion.div>
      ):(
         <motion.div
@@ -200,8 +204,9 @@ const Characters = () => {
         initial={{x:"100%"}}
         animate={{x:0}}
         exit={{x:"-100%"}}
-        transition={{duration:0.5}}>
-            <img src="images/EVA.png" alt="" />
+        transition={{duration:0.5}}>   
+            <Spline scene="https://prod.spline.design/Vz5-sRagBKfCdRE9/scene.splinecode" />
+ 
         </motion.div>
      )}
      </AnimatePresence>
